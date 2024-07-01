@@ -21,7 +21,7 @@
                             <th scope="col">Name</th>
                             <th scope="col">Company</th>
                             <th scope="col">Employee</th>
-                            <th scope="col">Teacher</th>
+                            {{-- <th scope="col">Teacher</th> --}}
                           </tr>
                         </thead>
                         <tbody>
@@ -31,7 +31,7 @@
                                 <td>{{ $data->store_name }}</td>
                                 <td>{{ $data->company->name }}</td>
                                 <td>{{ $data->employee->name }}</td>
-                                <td>{{ $data->teacher->name}}</td>
+                                {{-- <td>{{ $data->teacher->name}}</td> --}}
                             @endforeach
                           </tr>
                           
